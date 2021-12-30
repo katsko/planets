@@ -18,7 +18,7 @@ Description
 
 Return list of planets: names and distances.
 
-List can be filter by *distance* parameter and sorted by *order* parameter.
+List can be filtered by *distance* parameter and sorted by *order* parameter.
 
 Parameters
 ~~~~~~~~~~
@@ -30,6 +30,7 @@ Answer
 ~~~~~~
 
 * *planets* - list(obj):
+
   * *name* - str
   * *distance* - int
 
@@ -66,6 +67,7 @@ Answer
 ~~~~~~
 
 * *planet* - obj:
+
   * *name* - str
   * *distance* - int
   * *planet_type* - str
